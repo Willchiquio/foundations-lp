@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+}
+
+.cabecalho {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 200px
+}
+
+.cabecalho-logo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.cabecalho-menu {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    gap: 24px;
+}
+
+.conteudo-principal {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;    
+    align-items: flex-start;
+    gap: 10%;
+    padding: 24px 200px;
+}
+
+.conteudo-princpal-escrito {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;  
+    gap: 12px
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.conteudo-principal-escrito-botao{
+    background-color: #3882F6;
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.conteudo-principal-imagem {
+    height: 300px;
+}
+
+.conteudo-secundario {
+    padding: 24px 24px 100px 24px;
+}
+
+.conteudo-secundario-escrito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 24px;
+}
+
+.conteudo-secundario-escrito-titulo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;   
+}
+
+.conteudo-secundario-boxe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.conteudo-secundario-boxe-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-secundario-boxe-texto {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #1F2937;
+    padding-top: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.imagem-pequena {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.conteudo-terciario {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    padding: 100px 300px 100px 300px;
+}
+
+.conteudo-terciario-escrito-autor {
+    display: flex;
+    align-self: flex-end;
+}
+
+.conteudo-terciario-escrito-quote {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.conteudo-terciario-escrito-autor-quote {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #1F2937
+}
+
+.conteudo-quatro {
+    padding: 48px 100px 48px 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo-quatro-boxe {
+    background-color: #3882F6;
+    border-radius: 12px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 150px;
+}
+.conteudo-quatro-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.conteudo-quatro-escrito-titulo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.conteudo-quatro-escrito-subtitulo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.conteudo-quatro-botao-sign {
+    background-color: #3882F6;
+    border: 2px solid white;
+    color: white;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.rodape {
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape-escrito {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
